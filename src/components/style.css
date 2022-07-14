@@ -1,0 +1,188 @@
+/*picture*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Varela+Round&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Varela Round", sans-serif;
+}
+
+.pic {
+  position: absolute;
+  width: 317px;
+  height: 317px;
+  left: 116px;
+  top: 44px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+    color: #f3bf99;
+    transition: all 300ms ease;
+}
+
+a:visited{
+    text-decoration: none;
+
+}
+
+a:active{
+    text-decoration: none;
+}
+
+
+ul {
+  list-style: none;
+}
+
+/*MainContent*/
+
+.info-container {
+  position: absolute;
+  width: 317px;
+  height: 399px;
+  left: 116px;
+  top: 361px;
+
+  background: #1a1b21;
+}
+
+.info__name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  font-size: 15px;
+  color: #ffffff;
+  margin: 8px;
+}
+
+.info__job--title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.8px;
+  line-height: 15px;
+  text-align: center;
+  color: #f3bf99;
+  margin-bottom: 8px;
+}
+
+.info__website {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  text-align: center;
+  color: #f5f5f5;
+  margin-bottom: 8px;
+}
+
+.info__website:hover{
+    transform: scale(1.1);
+    transition: all 300ms ease;
+}
+
+
+
+.btn-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.btn-link2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px;
+  gap: 8px;
+  background: #ffffff;
+  color: black;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+}
+
+.btn-link2:hover{
+    transform: scale(1.1);
+    transition: all 300ms ease;
+}
+
+.btn-link1 {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 20px;
+  gap: 8px;
+  background: #ffffff;
+  border: 1px solid #d1d5db;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  color: black;
+}
+
+.btn-link1:hover{
+    transform: scale(1.1);
+    transition: all 300ms ease;
+}
+
+
+.info__des {
+  margin: 16px 24px 0 24px;
+}
+
+.info__des--about {
+  font-family: "Varela Round", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #f5f5f5;
+}
+
+.info__des--para {
+  font-family: "Varela Round", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 150%;
+  color: #dcdcdc;
+}
+
+/*Social Link*/
+
+.social-wrapper {
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+  position: absolute;
+  width: 317px;
+  height: 64px;
+  left: 116px;
+  top: 760px;
+}
+
+.social-list {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.social-link {
+  font-size: 45px;
+  text-align: center;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.social-link:hover{
+    transform: scale(1.1);
+    transition: all 300ms ease;
+}
